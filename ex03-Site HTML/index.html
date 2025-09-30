@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Site da Tecnologia</title>
+    <style>
+         @font-face {
+            font-family: 'Idroid';
+            src: url(fontes/idroid.otf) format(truetype);
+            font: normal normal;}
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: bisque;
+            margin: 0px;
+
+        }
+        header {
+            background-image: linear-gradient(to bottom, #05cc36, #03A63C, #027333, #025939);
+            margin: auto;
+            padding: 15px 10px 20px 10px;
+            text-align: center;
+            color: white;
+            box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.425);
+        }
+        header > p {
+            padding: 10px;
+            text-align: center;
+            font-weight: lighter;
+            padding-bottom: 40px;
+        }
+        
+        nav {
+            text-align: left;
+        }
+        nav > a:hover{
+            color: blue;
+        }
+        nav > a {
+            text-decoration: none;
+            margin-right: 10px;
+            color: white;
+            font-weight: bold;
+        }
+
+        main {
+            font-family: 'Idroid';
+            color: #027333;
+            background-color: white;
+            margin: auto;
+            width: 100%;
+            padding-top: 5px;
+            text-align: center;
+        }
+        
+        main > p {
+              font-family: Arial, Helvetica, sans-serif;
+              text-align: justify;
+              text-indent: 5%;
+              padding: 8px;
+        }
+        .esquerda {
+            text-align: left;
+            padding-left: 10px;
+        }
+        h2 {
+            background-image: linear-gradient(to right, rgba(3, 196, 3, 0.192), rgba(7, 204, 7, 0.115), rgba(5, 186, 5, 0.049), rgba(3, 146, 3, 0));
+            margin: 5px;
+        }
+        footer {
+            background-color: #025939;
+        }
+        footer > p {
+            padding: 5px;
+            margin: 0%;
+            text-align: center;
+            color: white;
+            font-weight: lighter;
+            
+        }
+        div {
+            background-color: #03a63c44;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: justify;
+            padding: 10px;
+            padding-top: 5px;
+            margin: 20px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Curiosidades de tecnologia</h1>
+        <p>Tudo aquilo que você sempre quis saber sobre o mundo Tech, em um unico lugar.</p>
+        
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Notícias</a>
+            <a href="#">Curiosidades</a>
+            <a href="#">Fale Conosco</a>
+        </nav>
+    </header>
+    <main>
+        <h1 class="esquerda">História do Mascote do android</h1>
+        <p>Provavelmente você sabe que o sistema operacional Android, mantido pelo Google é um dos mais utilizados para dispositivos móveis em todo o mundo. Mas tavez você não saiba que o seu simpático mascote tem um nome e uma história muito curiosa? Pois acompanhe esse artigo para aprender muita coisa sobre esse robozinho.</p>
+
+        <h2 class="esquerda">A primeira versão</h2>
+
+        <p>A primeira tentativa de criar um mascote surgiu em 2007 e veio de um desenvolvedor chamado Dan Morrill. Ele conta que abriu o Inkscape (software livre para vetorização de imagens) e criou sua própria versão de robô. O objetivo era apenas personificar o sistema apenas para a a sua equipe, não existia nenhuma solicitação da empresa para a criação de um mascote.</p>
+        <picture>
+            <source media="(max-width:750px )" srcset="imagens/dan-droids-pq.png" type="image/png" >
+            <img src="imagens/dan-droids.png" alt="Droid">
+        </picture>
+        <p>Essa primeira versão bizarra até foi batizada em homenagem ao seu criador: seriam os Dandroids.
+        </p>
+        <h2 class="esquerda">Surge um novo mascote</h2>
+        <p>A ideia de ter um mascote foi amadurecendo e a missão foi passada para uma profissional da área. A ilustradora Russa Irina Blok, também funcionária do Google, ficou com a missão de representar o pequeno robô de uma maneira mais agradável.</p>
+        <picture>
+            <source media="(max-width:800px )" srcset="imagens/irina-blok-pq.jpg" type="image/jpg">
+            <img src="imagens/irina-blok.jpg" alt="Irina"></picture>
+            <p>A ideia principal da Irina era representar tudo graficamente com poucos traços e de forma mais chapada. O desenho também deveria gerar identificação rápida com quem o olha. Surgiu então o Bugdroid, o novo mascote do Android.</p>
+            <img src="imagens/bugdroid.png" alt="Droid">
+
+            <p>A principal inspiração para os traços do novo Bugdroid veio daqueles bonequinhos que ilustram portas de banheiro para indicar o gênero de cada porta. Conta a lenda que a artista estava criando em sua mesa no escritório do Google e olhou para o lado dos banheiros e a identificação foi imediata: simples, limpo, objetivo.</p>
+            <div>
+                <p> <p style="background-color: #015a08f3; color: white; ">Quer aprender mais? </p>
+
+Outro assunto curioso em relação ao Android é que cada versão sempre foi nomeada em homenagem a um doce, em ordem alfabética a partir da versão 1.5 até a 9.0.</p>
+            </div>
+    </main>
+    <footer><p>Site criado por Henrique para o Cursoemvideo</p></footer>
+</body>
+</html>
